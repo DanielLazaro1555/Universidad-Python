@@ -14,7 +14,7 @@ Area <area>
 Perimetro :<perimetro>
 
 Las formulas para calcular el area y el perimtero de un rectangulo son:
-Area : alto  ancho
+Area : alto * ancho
 Perimetro : (alto + ancho) * 2
 """
 # Resolucion
@@ -22,6 +22,8 @@ Perimetro : (alto + ancho) * 2
 alto = int(input("Proporciona el alto del rectangulo : "))
 ancho = int(input("Proporciona el ancho del rectangulo : "))
 # Asignamos el area
-area = ((alto + ancho) * 2)
+area = alto * ancho
+perimetro = ((alto + ancho) * 2)
 # Imprimimos el resultado deseado
 print("El area es :", area)
+print("El perimetro es :", perimetro)
