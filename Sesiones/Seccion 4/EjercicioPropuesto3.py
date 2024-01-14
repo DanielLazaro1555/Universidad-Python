@@ -19,8 +19,8 @@ Perimetro : (alto + ancho) * 2
 """
 # Resolucion
 # Asignamos las variables
-alto = int(input("Proporciona el alto : "))
-ancho = int(input("Proporciona el ancho: "))
+alto = int(input("Proporciona el alto del rectangulo : "))
+ancho = int(input("Proporciona el ancho del rectangulo : "))
 # Asignamos el area
 area = ((alto + ancho) * 2)
 # Imprimimos el resultado deseado
