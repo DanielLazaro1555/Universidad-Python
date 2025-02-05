@@ -250,7 +250,7 @@ Cuando se calcula el largo de una cadena, se toman en cuenta **todos los caracte
 
 ## Ejemplo en Python
 
-````python
+```python
 cadena1 = 'Hola, Mundo!'
 longitud = len(cadena1)
 
@@ -263,12 +263,14 @@ print(longitud)  # Devuelve: 12
         10 letras + 1 coma + 1 espacio.
 
 La función len() devuelve la cantidad total de caracteres presentes en la cadena. 🚀
+```
 
 # Subcadenas en Python
 
 Una **subcadena** es una parte de una cadena principal, y hay varias maneras de **extraer subcadenas en Python**.
 
 Podemos:
+
 - **Extraer subcadenas**
 - **Buscarlas**
 - **Reemplazarlas**
@@ -277,6 +279,7 @@ Podemos:
 ## ✂️ Extracción de Cadenas (Slicing)
 
 El **slicing** o **segmentación** permite indicar:
+
 - El **índice de inicio**
 - El **índice final** (sin incluir este último carácter)
 
@@ -298,4 +301,29 @@ print(subcadena)         # Imprime: Hola
     En el ejemplo, cadena[0:4] extrae los caracteres en las posiciones 0, 1, 2 y 3.
 
 Este método es muy útil para manipular partes específicas de una cadena en Python. 🚀
+```
+
+````
+# Subcadenas en Python
+
+## 🔍 Buscar Subcadenas con `find()`
+
+El método `find()` devuelve el **índice de la primera aparición** de la subcadena dentro de una cadena principal.
+Si no encuentra la subcadena, devuelve **-1**.
+
+### 📋 **Sintaxis:**
+
+```python
+cadena.find(subcadena)
+
+🚀 Ejemplo en Python:
+
+cadena = "Hola mundo"
+posicion = cadena.find("mundo")
+print(posicion)  # Imprime: 5
+
+cadena = "Hola mundo"
+posicion = cadena.find("mundo")
+print(posicion)  # Imprime: 5
+
 ````
