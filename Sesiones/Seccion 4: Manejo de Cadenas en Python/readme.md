@@ -352,3 +352,111 @@ print(nueva_cadena)  # Imprime: Hola a todos
 
 Este método es muy útil para editar o limpiar textos en Python de manera sencilla. 🚀
 ```
+
+# Subcadenas en Python
+
+## ✂️ Extraer Subcadenas por Separadores con `split()`
+
+La función `split()` permite **dividir una cadena en una lista de subcadenas** basadas en un **carácter separador**.
+
+### 📋 **Sintaxis:**
+
+```python
+cadena.split(separador)
+
+🚀 Ejemplo en Python:
+
+datos = 'Juan,30,México'
+lista = datos.split(',')
+print(lista)  # Imprime: ['Juan', '30', 'México']
+```
+
+✅ Explicación:
+
+    El separador utilizado es la coma (,), lo que permite dividir la cadena en varias partes.
+    La función split() devuelve una lista con las subcadenas resultantes.
+
+Este método es muy útil para procesar datos estructurados, como archivos CSV o textos delimitados. 🚀
+
+# 📧 Generador de Email
+
+Crea un programa para **generar un email** a partir de los siguientes datos:
+
+### 📝 **Datos de entrada:**
+
+- **Nombre:** Ubaldo Acosta Soto
+- **Empresa:** Global Mentoring
+- **Dominio:** com.mx
+
+### 🎯 **Resultado final:**
+
+```python
+email = "ubaldo.acosta.soto@globalmentoring.com.mx"
+
+🚀 Código en Python para generar el email:
+
+# Datos de entrada
+nombre = "Ubaldo Acosta Soto"
+empresa = "Global Mentoring"
+dominio = "com.mx"
+
+# Generar el email
+email = f"{nombre.lower().replace(' ', '.')}@{empresa.lower().replace(' ', '')}.{dominio}"
+
+# Resultado
+print(email)
+
+```
+
+✅ Explicación:
+
+    Se utiliza lower() para convertir todo a minúsculas.
+    replace(' ', '.') transforma los espacios del nombre en puntos.
+    replace(' ', '') elimina los espacios en el nombre de la empresa.
+
+💡 Salida esperada:
+ubaldo.acosta.soto@globalmentoring.com.mx
+
+Este es un ejemplo sencillo para automatizar la creación de correos electrónicos en Python. 🚀
+
+# 📧 Generador de Email
+
+Este es el **resultado del programa** para generar un email a partir de los datos proporcionados.
+
+### 🖨️ **Salida del Programa:**
+
+**_ Generador de Email _** Nombre usuario: Ubaldo Acosta Soto Nombre usuario normalizado: ubaldo.acosta.soto
+
+Nombre empresa: Global Mentoring Extensión del dominio: .com.mx Dominio de email normalizado: @globalmentoring.com.mx
+
+Email final generado: ubaldo.acosta.soto@globalmentoring.com.mx
+
+# 📋 Cuestionario: Cadenas en Python
+
+## 🧪 **Cuestionario 3 | 1 Pregunta**
+
+### ❓ **Pregunta 1:**
+
+¿Cuál opción es correcta para crear la cadena de "Hola Mundo" en Python?
+
+- [ ] `"Hola Mundo'`
+- [x] `'Hola Mundo'`
+- [ ] `#Hola Mundo#`
+- [ ] `'Hola Mundo"`
+
+### ✅ **Respuesta Correcta:** `'Hola Mundo'`
+
+---
+
+## 🎯 **Resultado Final:**
+
+### 🚀 **Explicación:**
+
+En Python, una cadena de texto (o **string**) se puede crear utilizando **comillas simples (`'`) o dobles (`"`)**.  
+El ejemplo correcto es `'Hola Mundo'` porque las comillas están bien balanceadas y cerradas correctamente.
+
+---
+
+Este cuestionario es un excelente ejercicio para afianzar conceptos básicos sobre la creación de cadenas en Python. 🚀
+
+![Prueba de la seccion finalizada](Captura%20desde%202025-02-05%2018-49-50.png)
