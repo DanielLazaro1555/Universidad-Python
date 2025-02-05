@@ -215,4 +215,4 @@ MENSAJE_ERROR = 'Usuario Inválido'
 NOMBRE_USUARIO_VALIDO = 'admin'
 
 
-![Creacion de Variables en Python, ejercicio resuelto en udemy](image.png)
+![Creación de Variables en Python, ejercicio resuelto en Udemy](image.png)
