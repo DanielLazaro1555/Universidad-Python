@@ -196,3 +196,23 @@ Tarifa diaria: 1200.0
 Habitación con vista al mar? True
 
 ```
+# Constantes en Python
+
+A diferencia de otros lenguajes de programación, en Python no existe un tipo específico para definir una constante de manera estricta. **Sólo es una convención.**
+
+Python no impide cambiar el valor de una variable, pero podemos seguir la siguiente convención de declarar el nombre de una variable en mayúsculas y con ello indicamos que el valor de esta variable **NO debe modificarse** una vez inicializada. Es decir, esta variable se debe tratar como una constante.
+
+## Sintaxis para una constante
+
+```python
+# Sintaxis para una constante
+NOMBRE_CONSTANTE = valor
+
+Ejemplos de constantes
+
+PI = 3.14159
+MENSAJE_ERROR = 'Usuario Inválido'
+NOMBRE_USUARIO_VALIDO = 'admin'
+
+
+![Creacion de Variables en Python, ejercicio resuelto en udemy](image.png)

@@ -34,7 +34,7 @@ precio_producto = 299.99
 cantidad_inventario = 10
 disponible_entrega = True
 
-# MOstrar informacion del producto
+# Mostrar informacion del producto
 print('****************************************************')
 print('Producto:', nombre_producto)
 print('Precio:', precio_producto)
