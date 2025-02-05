@@ -327,3 +327,28 @@ posicion = cadena.find("mundo")
 print(posicion)  # Imprime: 5
 
 ````
+
+## Subcadenas en Python
+
+## 🔄 Reemplazar Subcadenas con `replace()`
+
+El método `replace()` **reemplaza una subcadena por otra** dentro de una cadena principal.
+
+### 📋 **Sintaxis:**
+
+```python
+cadena.replace(subcadena_antigua, subcadena_nueva)
+
+
+cadena = 'Hola mundo'
+nueva_cadena = cadena.replace('mundo', 'a todos')
+print(nueva_cadena)  # Imprime: Hola a todos
+
+
+✅ Explicación:
+
+    La subcadena 'mundo' se reemplaza por 'a todos'.
+    El método replace() no modifica la cadena original, sino que devuelve una nueva cadena con el reemplazo realizado.
+
+Este método es muy útil para editar o limpiar textos en Python de manera sencilla. 🚀
+```
