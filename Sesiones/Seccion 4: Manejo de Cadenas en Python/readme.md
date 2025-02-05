@@ -144,3 +144,19 @@ print(concatenacion)  # Imprime: HolaMundo
 concatenacion = "Hola" + " " + "Mundo"
 print(concatenacion)  # Imprime: Hola Mundo
 ```
+
+## Uso de la función `join`
+
+La función `join` nos permite **unir tantas cadenas como necesitemos**.  
+Solo necesitamos pasar cada cadena a concatenar, separadas por comas y dentro de una lista.
+
+### Ejemplo
+
+```python
+# Uso de la función join para concatenar cadenas
+resultado = "".join(["cadena1", "cadena2", "cadena3"])
+print(resultado)  # Imprime: cadena1cadena2cadena3
+
+# Concatenación con un separador
+resultado = " ".join(["cadena1", "cadena2", "cadena3"])
+print(resultado)  # Imprime: cadena1 cadena2 cadena3
