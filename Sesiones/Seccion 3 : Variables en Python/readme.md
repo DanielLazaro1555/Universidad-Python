@@ -159,4 +159,40 @@ Python es un lenguaje de **tipado dinámico**, lo que significa que no es necesa
 - **Tabla resumen:** Para sintetizar la información de forma visual.
 - **Notas destacadas:** Que ayudan a reforzar conceptos importantes.
 
-Si deseas que lo personalice aún más, ¡dime y lo hacemos juntos! 🚀
+---
+
+# Ejercicio
+
+---
+
+# 🏨 Sistema de Reserva de Hoteles
+
+Crea un sistema de reserva de hoteles que contenga la siguiente información de una reserva:
+
+## 📋 Información de la Reserva
+
+- **Nombre del cliente** 🧑
+- **Días de estancia** 📅
+- **Tarifa diaria** 💲
+- **Indicar si el cuarto tiene vista al mar** 🌊 (valor booleano: `True` o `False`)
+
+---
+
+## 🖨️ Requisitos
+
+1. Capturar la información de la reserva.
+2. Imprimir los valores de cada variable en un formato estructurado.
+3. Realizar algunos cambios en los datos y volver a imprimir la información actualizada.
+
+---
+
+## 💡 Ejemplo de Salida Esperada
+
+```plaintext
+*** Sistema de Reserva de Hoteles ***
+Cliente: Laura Martínez
+Días de estancia: 5
+Tarifa diaria: 1200.0
+Habitación con vista al mar? True
+
+```
