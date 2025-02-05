@@ -62,3 +62,28 @@ print('Edad:', edad)
 # Si queremos acceder a una variable no declarada manda error
 telefono = '123456789'
 print('telefono:', telefono)
+
+# Regla y convenciones en nombres de variables
+
+# Ejemplos de reglas estrictas
+nombre_usuario = 'Juan Perez'  # Correcto
+# 1nombre_usuario = 'Karla Gomez'  # Incorrecto
+
+# No podemos usar palabras reservadas
+# class = 'Mi clase'  # Incorrecto
+klass = 'Mi clase'
+
+# Sensibles a mayúsculas y minúsculas
+nombre = 'Juan'
+nombre = 'Karla'
+print(nombre)
+print(nombre)
+# print(NOMBRE) esta variable no ha sido definida
+
+# Snake case
+nombre_completo = 'Ricardo Esparza'
+print(nombre_completo)
+
+# Prefijos y sufijos
+es_casado = False
+nombre_txt = 'archivo.txt'
