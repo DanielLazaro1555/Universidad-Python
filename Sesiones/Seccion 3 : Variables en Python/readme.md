@@ -196,6 +196,7 @@ Tarifa diaria: 1200.0
 Habitación con vista al mar? True
 
 ```
+
 # Constantes en Python
 
 A diferencia de otros lenguajes de programación, en Python no existe un tipo específico para definir una constante de manera estricta. **Sólo es una convención.**
@@ -216,4 +217,45 @@ NOMBRE_USUARIO_VALIDO = 'admin'
 
 
 ```
-![Creación de Variables en Python, ejercicio resuelto en Udemy](image.png)
+
+## Creación de Variables en Python, ejercicio resuelto en Udemy
+
+![Creación de Variables en Python, ejercicio resuelto en Udemy](Captura%20desde%202025-02-05%2016-43-10.png)
+
+# Variables en Python
+
+**Cuestionario 2** | **2 preguntas**
+
+## Pregunta 1:
+
+**¿Cuál de los siguientes es un nombre de variable válido en Python?**
+
+- [ ] `15_var = 10`
+- [ ] `var-20 = 10`
+- [ ] `var~ = 10`
+- [x] `__var__ = 10` ✅
+
+---
+
+## Pregunta 2:
+
+**¿Cuál opción es una buena práctica para el nombre de una variable en Python?**
+
+- [ ] `#var = 10`
+- [ ] `MiVar = 10`
+- [x] `_mi_var = 10` ✅
+- [ ] `_miVar = 10`
+
+> ✅ **¡Buen trabajo!**  
+> En Python se usa la notación de _snake_case_ o guiones bajos como una buena práctica al declarar variables.
+
+---
+
+**Este tema se trató en la clase 14:**  
+_Ejemplo de reglas de nombres de variables en Python_
+
+---
+
+## Creación de Variables en Python, cuestionario resuelto en Udemy
+
+![Creación de Variables en Python, ejercicio resuelto en Udemy](Captura%20desde%202025-02-05%2016-50-17.png)
