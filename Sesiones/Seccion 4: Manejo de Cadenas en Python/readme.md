@@ -13,8 +13,8 @@ cadena1 = "Hola Mundo"
 
 📦 Representación en Memoria:
 
-    Memoria (Variables): cadena1
-    Objetos: str ➔ "Hola Mundo"
+Memoria (Variables): cadena1
+Objetos: str ➔ "Hola Mundo"
 
 Este ejemplo muestra cómo se almacena una cadena en la memoria, donde cadena1 hace referencia a un objeto de tipo str que contiene el texto "Hola Mundo".
 ```
@@ -72,4 +72,54 @@ cadena1 ---> "Hola Mundo"
 
 Después de la modificación:
 cadena1 ---> "Adios"
+```
+
+# Caracteres Especiales
+
+Las **cadenas** pueden incluir **caracteres especiales**.
+
+Estos caracteres se introducen usando el **carácter de diagonal invertida** (`\`).  
+Ejemplos de caracteres especiales en Python:
+
+- **Nueva Línea:** `\n`  
+  Inserta un **salto de línea**.
+
+- **Tabulación:** `\t`  
+  Inserta un **tabulador horizontal**, útil para alinear texto.
+
+- **Comilla Simple:** `\'`  
+  Permite incluir **comillas simples** en una cadena delimitada por comillas simples.
+
+## Ejemplos en Código Python
+
+```python
+# Salto de línea
+print("Hola\nMundo")
+
+# Tabulación
+print("Nombre:\tDaniel")
+
+# Comilla simple dentro de una cadena
+print('Es una cadena con comilla simple: \'Python\'')
+```
+
+# Caracteres Especiales (Continuación)
+
+- **Comilla Doble:** `\"`  
+  Permite incluir **comillas dobles** en una cadena delimitada por comillas dobles.
+
+- **Barra Invertida:** `\\`  
+  Permite incluir una **barra invertida** en la cadena.
+
+> ℹ️ **Nota:**  
+> Existen más caracteres especiales, pero estos son los **esenciales**.
+
+## Ejemplos en Código Python
+
+```python
+# Comillas dobles dentro de una cadena
+print("Esta es una cadena con comillas dobles: \"Python\"")
+
+# Barra invertida dentro de una cadena
+print("Esta es una barra invertida: \\")
 ```
