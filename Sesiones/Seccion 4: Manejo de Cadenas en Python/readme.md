@@ -123,3 +123,22 @@ print("Esta es una cadena con comillas dobles: \"Python\"")
 # Barra invertida dentro de una cadena
 print("Esta es una barra invertida: \\")
 ```
+# Concatenación de Cadenas
+
+La **concatenación de cadenas** es una operación que permite **combinar dos o más cadenas** para formar una **nueva cadena**.
+
+En Python existen varias formas de realizar esta operación. Vamos a ver algunas de ellas:
+
+## Uso del operador `+`
+
+El operador `+` es el método más directo para concatenar cadenas.  
+Simplemente tenemos que colocar el operador `+` entre las cadenas que deseamos unir.
+
+### Ejemplo
+
+```python
+concatenacion = "Hola" + "Mundo"
+print(concatenacion)  # Imprime: HolaMundo
+
+concatenacion = "Hola" + " " + "Mundo"
+print(concatenacion)  # Imprime: Hola Mundo 
