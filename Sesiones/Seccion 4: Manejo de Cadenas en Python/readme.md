@@ -123,6 +123,7 @@ print("Esta es una cadena con comillas dobles: \"Python\"")
 # Barra invertida dentro de una cadena
 print("Esta es una barra invertida: \\")
 ```
+
 # Concatenación de Cadenas
 
 La **concatenación de cadenas** es una operación que permite **combinar dos o más cadenas** para formar una **nueva cadena**.
@@ -141,4 +142,5 @@ concatenacion = "Hola" + "Mundo"
 print(concatenacion)  # Imprime: HolaMundo
 
 concatenacion = "Hola" + " " + "Mundo"
-print(concatenacion)  # Imprime: Hola Mundo 
+print(concatenacion)  # Imprime: Hola Mundo
+```
