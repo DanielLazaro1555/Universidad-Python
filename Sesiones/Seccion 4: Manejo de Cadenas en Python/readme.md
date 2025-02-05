@@ -44,3 +44,32 @@ print(cadena1[0])  # Imprime: H
 print(cadena1[4])  # Imprime: (espacio)
 print(cadena1[6])  # Imprime: u
 ```
+
+# Inmutabilidad de una Cadena
+
+Una vez que se crea una **cadena**, los **caracteres dentro de ella no pueden ser modificados**.
+
+Si deseamos modificar una cadena, entonces tenemos que **crear una nueva cadena**.
+
+> ⚠️ **Importante:**  
+> Las cadenas **no se pueden modificar**, son **inmutables**.
+
+## Ejemplo de inmutabilidad en Python
+
+```python
+cadena1 = "Hola Mundo"
+# Intentar modificar directamente un carácter causará un error:
+# cadena1[0] = "A"  # ❌ Esto generará un error
+
+# Para modificar una cadena, se debe crear una nueva:
+cadena1 = "Adios"
+📦 Representación en Memoria:
+
+    Memoria (Variables): cadena1
+    Objetos (String - str):
+Antes:
+cadena1 ---> "Hola Mundo"
+
+Después de la modificación:
+cadena1 ---> "Adios"
+```
