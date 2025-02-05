@@ -160,3 +160,29 @@ print(resultado)  # Imprime: cadena1cadena2cadena3
 # Concatenación con un separador
 resultado = " ".join(["cadena1", "cadena2", "cadena3"])
 print(resultado)  # Imprime: cadena1 cadena2 cadena3
+
+```
+
+# Formateo de Cadenas
+
+Python ofrece varias maneras de **formatear cadenas**, que incluyen la capacidad de concatenar texto, variables e incluso aplicar otros tipos de formato, como por ejemplo **indicar el número de decimales** a utilizar en el formato.
+
+## Uso de `f-string` (Python 3.6+)
+
+Esta es la opción **más recomendada**, por ser la **más sencilla**, **rápida** y **legible**.
+
+### Ejemplo de `f-string`
+
+```python
+variable = "Mundo"
+resultado = f"Hola {variable}"
+print(resultado)  # Imprime: Hola Mundo
+
+Ventajas del f-string:
+
+    Es más rápido que otros métodos de formateo.
+    Permite insertar expresiones directamente dentro de las llaves {}.
+    Es más legible y conciso.
+
+Este método se introdujo en Python 3.6, por lo que se recomienda para proyectos actuales. 🚀
+```
