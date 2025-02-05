@@ -186,3 +186,116 @@ Ventajas del f-string:
 
 Este método se introdujo en Python 3.6, por lo que se recomienda para proyectos actuales. 🚀
 ```
+
+## Uso del método `format`
+
+El método `format` es muy **versátil** y **poderoso**.  
+Permite construir **cadenas complejas** de manera flexible.
+
+### Ejemplo de `format`
+
+```python
+variable = "Mundo"
+resultado = 'Hola {}'.format(variable)
+print(resultado)  # Imprime: Hola Mundo
+
+🚀 Ventajas del método format:
+
+    Permite insertar múltiples variables en una sola cadena.
+    Se pueden personalizar formatos como números decimales, alineación de texto, etc.
+    Útil para construir cadenas más complejas.
+
+Aunque el método format es muy funcional, en versiones recientes de Python se recomienda el uso de f-strings por su simplicidad y rendimiento. 🚀
+```
+
+# Métodos de Cadenas
+
+Las **cadenas en Python** vienen con una serie de **métodos útiles** que facilitan su manipulación.  
+Por ejemplo:
+
+## 🚀 Métodos Comunes
+
+- **`upper()`** → Cambia las letras a **mayúsculas**.
+
+```python
+texto = "hola mundo"
+print(texto.upper())  # Imprime: HOLA MUNDO
+
+texto = "HOLA MUNDO"
+print(texto.lower())  # Imprime: hola mundo
+
+texto = "   Python   "
+print(texto.strip())  # Imprime: Python
+
+
+```
+
+# Obtener el Largo de una Cadena
+
+Para obtener la **longitud de una cadena**, utilizamos la función incorporada `len()`.
+
+## 🚀 ¿Cómo funciona?
+
+La función `len` funciona con varios tipos de datos, incluyendo:
+
+- **Cadenas de texto**
+- **Listas**
+- **Tuplas**, entre otros.
+
+Cuando se calcula el largo de una cadena, se toman en cuenta **todos los caracteres**, incluyendo:
+
+- Espacios en blanco
+- Caracteres especiales
+- Símbolos, etc.
+
+## Ejemplo en Python
+
+````python
+cadena1 = 'Hola, Mundo!'
+longitud = len(cadena1)
+
+print(longitud)  # Devuelve: 12
+
+
+📋 Explicación:
+
+    Hola, Mundo! tiene 12 caracteres:
+        10 letras + 1 coma + 1 espacio.
+
+La función len() devuelve la cantidad total de caracteres presentes en la cadena. 🚀
+
+# Subcadenas en Python
+
+Una **subcadena** es una parte de una cadena principal, y hay varias maneras de **extraer subcadenas en Python**.
+
+Podemos:
+- **Extraer subcadenas**
+- **Buscarlas**
+- **Reemplazarlas**
+- Realizar otras operaciones útiles para la manipulación de texto.
+
+## ✂️ Extracción de Cadenas (Slicing)
+
+El **slicing** o **segmentación** permite indicar:
+- El **índice de inicio**
+- El **índice final** (sin incluir este último carácter)
+
+### 📋 **Sintaxis:**
+
+```python
+subcadena = cadena[inicio:fin]
+
+🚀 Ejemplo en Python:
+
+cadena = "Hola, Mundo"
+subcadena = cadena[0:4]  # Extrae desde el índice 0 hasta el 3
+print(subcadena)         # Imprime: Hola
+
+✅ Explicación:
+
+    inicio es el índice desde donde comienza la subcadena.
+    fin es el índice donde termina la subcadena (sin incluir ese carácter).
+    En el ejemplo, cadena[0:4] extrae los caracteres en las posiciones 0, 1, 2 y 3.
+
+Este método es muy útil para manipular partes específicas de una cadena en Python. 🚀
+````
