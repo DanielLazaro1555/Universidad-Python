@@ -180,3 +180,81 @@ print(5 >= 3)  # True
 print(5 >= 5)  # True
 print(3 >= 5)  # False
 ```
+
+# Operadores Lógicos
+
+Los operadores lógicos se utilizan para realizar operaciones lógicas con valores booleanos.
+
+## Operador Lógico `and` (y)
+
+Devuelve `True` si ambos operandos son verdaderos.
+
+```python
+# Ejemplo operador lógico and
+exp1 = False
+exp2 = True
+print(exp1 and exp2)  # False
+
+Operador Lógico or (o)
+
+Devuelve True si cualquiera de los operandos es verdadero.
+
+# Ejemplo operador lógico or
+exp1 = False
+exp2 = True
+print(exp1 or exp2)  # True
+
+Operador Lógico not (no)
+
+Invierte el valor del operando. Es un operador unario.
+
+# Ejemplo operador lógico not
+exp1 = False
+print(not exp1)  # True
+```
+
+# Operador `and`
+
+El operador `and` regresa verdadero (`True`) si ambos operandos son verdaderos.
+
+## Tabla de Verdad del Operador `and`
+
+| a     | b     | a and b |
+| ----- | ----- | ------- |
+| False | False | False   |
+| False | True  | False   |
+| True  | False | False   |
+| True  | True  | True    |
+
+# Operador `or`
+
+El operador `or` regresa verdadero (`True`) si cualquiera de los operandos es verdadero.
+
+## Tabla de Verdad del Operador `or`
+
+| a     | b     | a or b |
+| ----- | ----- | ------ |
+| False | False | False  |
+| False | True  | True   |
+| True  | False | True   |
+| True  | True  | True   |
+
+# Sistema de Préstamo de Libros
+
+Se pide crear un sistema para una biblioteca, la cual desea prestar libros si cumple con cualquiera de las siguientes condiciones:
+
+1. **El usuario tiene credencial de estudiante.**
+2. **El usuario vive a no más de 3 km a la redonda.**
+
+Si cumple con cualquiera de estas condiciones, se le puede prestar el libro.
+
+# Operador `not`
+
+El operador `not` invierte el valor del operando.
+
+## Tabla de Verdad del Operador `not`
+
+| a     | not a |
+| ----- | ----- |
+| False | True  |
+| True  | False |
